@@ -1,0 +1,43 @@
+{
+  "name": "sass-starter-kit",
+  "version": "0.0.5",
+  "description": "Boilerplate sederhana SASS",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wrideveloper/sass-starter-kit.git"
+  },
+
+  "dependencies": {
+    "browser-sync": "*",
+    "gulp": "*",
+    "gulp-concat": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-copy": "*",
+    "gulp-cssnano": "*",
+    "gulp-header": "*",
+    "gulp-jshint": "*",
+    "gulp-sass": "^*",
+    "gulp-sourcemaps": "*",
+    "gulp-watch": "*",
+    "gulp-zip": "*",
+    "gulp-uglify": "*",
+    "jshint": "*"
+  },
+
+  "keywords": [
+    "sass",
+    "html",
+    "js",
+    "gulpifle"
+  ],
+  "author": "Ivan Fadila Putra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wrideveloper/sass-starter-kit/issues"
+  },
+  "homepage": "https://github.com/wrideveloper/sass-starter-kit#readme"
+}
