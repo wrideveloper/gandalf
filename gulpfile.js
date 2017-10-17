@@ -1,6 +1,6 @@
 'use strict';
 
-var sources = require('./package.json'),
+const sources = require('./package.json'),
     gulp   = require('gulp'),
     browserSync = require('browser-sync').create(),
     header = require('gulp-header'),
@@ -16,7 +16,7 @@ var sources = require('./package.json'),
         ''
     ].join('\n');
 
-var browser_support = [
+const browser_support = [
         'last 2 versions',
         '> 5%',
         'Firefox ESR',
@@ -46,14 +46,14 @@ var sass         = require('gulp-sass'),
 
 
 //Html Task
-gulp.task('html', ()=> {
+gulp.task('html', () => {
     return gulp.src('./src/*.html')
         .pipe(gulp.dest('./src'))
         .pipe(browserSync.stream())
 });    
 
 //CSS Task
-gulp.task('sass', ()=> {
+gulp.task('sass', () => {
     return gulp.src("./src/sass/**/*.sass")
         .pipe(sourcemaps.init())
         .pipe(sass({outputStyle: 'compressed',errLogToConsole:true}).on('error',sass.logError))
@@ -66,7 +66,7 @@ gulp.task('sass', ()=> {
 });
 
 //JS Task
-gulp.task('javascript', ()=> {
+gulp.task('javascript', () => {
     return gulp.src('./src/js/**/*.js')
         .pipe(jshint())
         .pipe(jshint.reporter('default'))
@@ -81,7 +81,7 @@ gulp.task('javascript', ()=> {
 });
 
 //Default Task
-gulp.task('default', ()=> {
+gulp.task('default', () => {
         browserSync.init({
             server:"./src"
         });
@@ -100,7 +100,7 @@ gulp.task('default', ()=> {
 });
 
 // Delivery && Compress
-gulp.task('dist', ()=> {
+gulp.task('dist', () => {
     return gulp.src('./src/**/*')
     .pipe(zip('prod_'+ sources.name + '_' + date + '.zip'))
     .pipe(gulp.dest('./dist'))

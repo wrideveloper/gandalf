@@ -1,8 +1,8 @@
 /**
  * sass-starter-kit - Boilerplate sederhana SASS
- * @author 
+ * @author Ivan Fadila Putra
  * @version v 0.0.5
- * @link  
+ * @link ffadilaputra.github.io 
  * @license MIT
  */
 @import url(https://fonts.googleapis.com/css?family=Raleway:100,400,700);header{min-height:75vh;background-color:#faceba;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.section,section{min-height:50vh;background-color:#eee}.flex-container,.section,section{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.flex-container{-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;min-height:75vh}.rounded{border-radius:100%;padding:10;width:200px;height:200px}.footer{border-top-style:solid;border-top-width:1px;border-color:#eee;min-height:25vh}*{paddding:0;margin:0}li{display:inline;margin:5}a{text-decoration:none;color:#000}body,h1{font-family:Raleway,sans-serif}h1{font-weight:100}p{font-family:Raleway,sans-serif;font-size:40;text-align:center}

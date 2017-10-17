@@ -34,7 +34,10 @@
     "js",
     "gulpifle"
   ],
-  "author": "Ivan Fadila Putra",
+  "author": {
+    "name":"Ivan Fadila Putra",
+    "homepage":"ffadilaputra.github.io"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/wrideveloper/sass-starter-kit/issues"
