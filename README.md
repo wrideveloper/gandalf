@@ -14,7 +14,7 @@ Download project
 ```
 git clone https://github.com/wrideveloper/gandalf.git
 ``` 
-Kemudian masuk ke root projek , install dependencynya
+Kemudian masuk ke root projek , install dependencynya :
 
 ```
 yarn 
@@ -26,14 +26,14 @@ npm install
 
 ## Develop & Production
 
-Setelah install dependency selesai , gunakan perintah berikut untuk proses development
+Setelah install dependency selesai , gunakan command berikut untuk proses development :
 ```
 gulp
 ```
 File pada folder sass akan tergenerate otomatis menjadi blabla.min.css
 
 
-Untuk production
+Untuk production lakukan command : 
 ```
 gulp dist
 ```
