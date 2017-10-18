@@ -14,7 +14,7 @@ Download project
 ```
 git clone https://github.com/wrideveloper/gandalf.git
 ``` 
-Kemudian masuk ke root projek
+Kemudian masuk ke root projek , install dependencynya
 
 ```
 yarn 
